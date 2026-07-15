@@ -1,0 +1,18 @@
+/*
+  注意表示を公開画面に出さないための追加CSS
+  sites.json内のcautionデータは残っていても表示されません。
+*/
+.caution {
+  display: none !important;
+}
+
+/* 掲載基準が2項目になったため、PCでは2列で均等表示 */
+.info-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 1000px) {
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
