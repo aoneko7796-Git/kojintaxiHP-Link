@@ -1,0 +1,851 @@
+{
+  "meta": {
+    "title": "全国 個人タクシー開業・受験支援リンク集",
+    "description": "全国の個人タクシー組合・支部・協会が公開する、開業希望者向けページを特徴別に探せるリンク集。",
+    "lastUpdated": "2026-07-15",
+    "version": "1.0.0",
+    "editorNote": "公開検索で内容を確認できたページを中心に収録。専用ページが見つからない地域は公式団体一覧を補完掲載。"
+  },
+  "sites": [
+    {
+      "id": "national-guide",
+      "name": "個人タクシーの経営者になるためには",
+      "organization": "一般社団法人 全国個人タクシー協会",
+      "region": "全国",
+      "prefecture": "全国",
+      "system": "全国団体・広域団体",
+      "category": "公式案内",
+      "url": "https://www.kojin-taxi.or.jp/taxi/jigyohnushi.html",
+      "summary": "新規許可と譲渡譲受の違い、主な資格要件、開業までの基本事項を確認できる全国向けの入口です。",
+      "features": [
+        "資格要件",
+        "開業の流れ",
+        "新規許可・譲渡譲受"
+      ],
+      "caution": "地域ごとの最新要件・申請日程は、管轄運輸局の公示も併せて確認してください。",
+      "verified": "2026-07-15",
+      "priority": 1
+    },
+    {
+      "id": "nikkoren-school",
+      "name": "個人タクシー学校・開業案内",
+      "organization": "日個連東京都営業協同組合",
+      "region": "全国",
+      "prefecture": "東京都",
+      "system": "日個連（ちょうちん系）",
+      "category": "勉強会・学校",
+      "url": "https://nikkoren.jp/",
+      "summary": "個人タクシー学校、講習日程、受験資格、申請から開業までの流れ、過去問題などを横断して確認できます。",
+      "features": [
+        "勉強会・学校",
+        "過去問",
+        "資格要件",
+        "申請支援",
+        "開業の流れ"
+      ],
+      "verified": "2026-07-15",
+      "priority": 2
+    },
+    {
+      "id": "tokyo-association",
+      "name": "開業をご希望の方へ",
+      "organization": "一般社団法人 東京都個人タクシー協会",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "地域協会",
+      "category": "公式案内",
+      "url": "https://www.kojintaxi-tokyo.or.jp/driver_index.html",
+      "summary": "東京都での開業を検討する方向けに、審査基準、手続、よくある質問などをまとめた公式案内です。",
+      "features": [
+        "資格要件",
+        "FAQ",
+        "開業の流れ",
+        "審査基準"
+      ],
+      "verified": "2026-07-15",
+      "priority": 3
+    },
+    {
+      "id": "toukokyo-license",
+      "name": "個人タクシーを目指す皆様へ",
+      "organization": "東京都個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "公式案内",
+      "url": "https://www.toukokyo.or.jp/license.html",
+      "summary": "支部勉強会への参加、申請・譲渡譲受手続など、東個協で開業を目指す際の入口となるページです。",
+      "features": [
+        "支部案内",
+        "勉強会・学校",
+        "申請支援",
+        "譲渡譲受"
+      ],
+      "verified": "2026-07-15",
+      "priority": 4
+    },
+    {
+      "id": "sapporo",
+      "name": "個人タクシーを目指す方へ",
+      "organization": "札幌個人タクシー協同組合",
+      "region": "北海道",
+      "prefecture": "北海道",
+      "system": "地域組合・独立系",
+      "category": "勉強会・学校",
+      "url": "https://www.sapporo-kojintaxi.jp/driver/",
+      "summary": "資格要件、試験時期、運輸局公示へのリンクに加え、毎月開催する勉強会の日時と申込先を掲載しています。",
+      "features": [
+        "資格要件",
+        "勉強会・学校",
+        "試験日程",
+        "公示リンク"
+      ],
+      "verified": "2026-07-15",
+      "priority": 5
+    },
+    {
+      "id": "satto",
+      "name": "個人タクシーになるには",
+      "organization": "札都個人タクシー協会",
+      "region": "北海道",
+      "prefecture": "北海道",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://satto-kojintaxi.com/private-taxi",
+      "summary": "資格条件、定期勉強会、面談の案内に加え、実際に開業した事業者の声も掲載しています。",
+      "features": [
+        "資格要件",
+        "勉強会・学校",
+        "開業体験記",
+        "相談窓口"
+      ],
+      "verified": "2026-07-15",
+      "priority": 6
+    },
+    {
+      "id": "tohoku-directory",
+      "name": "東北地区の会員団体一覧",
+      "organization": "一般社団法人 全国個人タクシー協会",
+      "region": "東北",
+      "prefecture": "東北各県",
+      "system": "全国団体・広域団体",
+      "category": "地域窓口一覧",
+      "url": "https://www.kojin-taxi.or.jp/gaiyou/02touhoku.html",
+      "summary": "東北各地の個人タクシー団体の所在地・連絡先を確認できます。専用の開業支援ページが見つからない地域の相談窓口探しに使えます。",
+      "features": [
+        "地域団体一覧",
+        "相談窓口"
+      ],
+      "caution": "開業希望者専用ページではありません。勉強会や譲渡譲受支援の有無は各団体へ確認してください。",
+      "verified": "2026-07-15",
+      "priority": 90
+    },
+    {
+      "id": "saitama",
+      "name": "個人タクシーを目指す方へ",
+      "organization": "埼玉県個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "埼玉県",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://www.saikokyo.com/",
+      "summary": "組合サイト内に開業希望者向け案内があり、埼玉県内での資格・相談窓口を確認する入口として利用できます。",
+      "features": [
+        "資格要件",
+        "相談窓口",
+        "組合案内"
+      ],
+      "caution": "トップページから「個人タクシーを目指す方へ」を選択してください。",
+      "verified": "2026-07-15",
+      "priority": 10
+    },
+    {
+      "id": "yokohama",
+      "name": "個人タクシーになるには",
+      "organization": "横浜個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "神奈川県",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://yokohama-kojintaxi.or.jp/howto",
+      "summary": "新規許可・譲渡譲受、資格要件、資金、申請から開業までの手順、定期講習の案内を詳しく掲載しています。",
+      "features": [
+        "資格要件",
+        "勉強会・学校",
+        "開業の流れ",
+        "資金",
+        "譲渡譲受"
+      ],
+      "verified": "2026-07-15",
+      "priority": 11
+    },
+    {
+      "id": "kanagawa-association",
+      "name": "個人タクシー開業案内",
+      "organization": "一般社団法人 神奈川県個人タクシー協会",
+      "region": "関東",
+      "prefecture": "神奈川県",
+      "system": "地域協会",
+      "category": "開業案内",
+      "url": "https://www.kenkyokai-kanagawa.jp/kaigyo.html",
+      "summary": "開業資格の概要、組合加入先の案内、譲渡希望者との相談・マッチング窓口を掲載しています。",
+      "features": [
+        "資格要件",
+        "団体紹介",
+        "譲渡譲受",
+        "相談窓口"
+      ],
+      "verified": "2026-07-15",
+      "priority": 12
+    },
+    {
+      "id": "nerima",
+      "name": "個人タクシーを目指す方へ・勉強会情報",
+      "organization": "東京都個人タクシー協同組合 練馬支部",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "勉強会・学校",
+      "url": "https://t-nerimashibu.com/wdps/",
+      "summary": "無料勉強会、模擬試験、申請書類の作成支援、教材案内に加え、独自の法令自習サイトも紹介しています。",
+      "features": [
+        "勉強会・学校",
+        "模擬試験",
+        "勉強アプリ・自習サイト",
+        "教材紹介",
+        "申請支援"
+      ],
+      "verified": "2026-07-15",
+      "priority": 7
+    },
+    {
+      "id": "shintokyo",
+      "name": "合同勉強会・開業支援",
+      "organization": "東京都個人タクシー協同組合 新東京支部・城東支部",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "勉強会・学校",
+      "url": "https://www.sinntoukyousibu.jp/learning/index.html",
+      "summary": "新東京支部と城東支部の合同勉強会を案内し、試験対策から申請手続までの支援内容を紹介しています。",
+      "features": [
+        "合同勉強会",
+        "資格要件",
+        "申請支援",
+        "開業の流れ"
+      ],
+      "verified": "2026-07-15",
+      "priority": 8
+    },
+    {
+      "id": "nishitokyo-class",
+      "name": "個人タクシー試験勉強会",
+      "organization": "西東京個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "地域組合・独立系",
+      "category": "勉強会・学校",
+      "url": "http://ntkojintaxi.s1009.xrea.com/about_test_class.php",
+      "summary": "法令テキストを使い、条文の理解を重視して進める試験勉強会の内容を紹介しています。",
+      "features": [
+        "勉強会・学校",
+        "教材紹介",
+        "法令解説"
+      ],
+      "caution": "HTTP接続の旧式サイトです。ブラウザに安全性の注意が表示される場合があります。",
+      "verified": "2026-07-15",
+      "priority": 13
+    },
+    {
+      "id": "nishitokyo-recruit",
+      "name": "個人タクシーを目指す方へ",
+      "organization": "西東京個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "http://ntkojintaxi.s1009.xrea.com/recruitment.html",
+      "summary": "個人タクシーの利点、開業希望者向けの基本案内、相談窓口を掲載しています。",
+      "features": [
+        "開業の魅力",
+        "資格要件",
+        "相談窓口"
+      ],
+      "caution": "HTTP接続の旧式サイトです。ブラウザに安全性の注意が表示される場合があります。",
+      "verified": "2026-07-15",
+      "priority": 14
+    },
+    {
+      "id": "ota1",
+      "name": "個人タクシー開業希望者募集",
+      "organization": "大田第一個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://oota-1.com/",
+      "summary": "勉強会、試験対策、開業後の組合支援、共済などを一体的に紹介する募集型のホームページです。",
+      "features": [
+        "勉強会・学校",
+        "資格要件",
+        "開業後支援",
+        "共済・組合サービス"
+      ],
+      "verified": "2026-07-15",
+      "priority": 9
+    },
+    {
+      "id": "toukokyo-kita",
+      "name": "勉強会のご案内",
+      "organization": "東京都個人タクシー協同組合 北支部",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "勉強会・学校",
+      "url": "https://www.toukokyo-kitashibu.jp/training/",
+      "summary": "入会面接、持参書類、勉強会日程、見学方法など、参加前に必要な情報を具体的に案内しています。",
+      "features": [
+        "勉強会・学校",
+        "必要書類",
+        "見学可",
+        "面談"
+      ],
+      "verified": "2026-07-15",
+      "priority": 15
+    },
+    {
+      "id": "toukokyo-kita2",
+      "name": "勉強会のご案内",
+      "organization": "東京都個人タクシー協同組合 北第二支部",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "勉強会・学校",
+      "url": "https://www.toukokyo-kita2shibu.jp/study/",
+      "summary": "開業希望者向けに無料の勉強会・指導を案内しています。",
+      "features": [
+        "勉強会・学校",
+        "無料",
+        "相談窓口"
+      ],
+      "caution": "地理試験に関する旧制度表記が残る可能性があります。現在の試験制度は運輸局公示で確認してください。",
+      "verified": "2026-07-15",
+      "priority": 31
+    },
+    {
+      "id": "suginami",
+      "name": "個人タクシー勉強会 受講生募集",
+      "organization": "東京都個人タクシー協同組合 杉並支部",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "勉強会・学校",
+      "url": "https://www.tosuginami.org/jyukousei.html",
+      "summary": "隔週日曜の講習予定、受講料、合格・開業時の支援などを明示した具体的な募集ページです。",
+      "features": [
+        "勉強会・学校",
+        "日程・費用",
+        "資格要件",
+        "合格後支援"
+      ],
+      "verified": "2026-07-15",
+      "priority": 16
+    },
+    {
+      "id": "toshima",
+      "name": "勉強会のご案内",
+      "organization": "東京都個人タクシー協同組合 豊島支部",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "勉強会・学校",
+      "url": "https://toshimaku-kojintaxi.com/bennkyoukainoannai/",
+      "summary": "複数支部合同の勉強会、申請書類から開業届までの支援、女性向け案内、試験・適性診断などを詳しく掲載しています。",
+      "features": [
+        "合同勉強会",
+        "申請支援",
+        "女性歓迎",
+        "資格要件",
+        "適性診断"
+      ],
+      "verified": "2026-07-15",
+      "priority": 17
+    },
+    {
+      "id": "sumida",
+      "name": "開業希望者向け情報・学習資料",
+      "organization": "東京都個人タクシー協同組合 墨田支部",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "教材・体験記",
+      "url": "https://dendensumida.sakura.ne.jp/",
+      "summary": "受験案内、過去問題、独自教材・学習ツール、合格体験記など、学習資料が豊富なサイトです。",
+      "features": [
+        "過去問",
+        "独自教材",
+        "勉強アプリ・自習サイト",
+        "開業体験記",
+        "勉強会・学校"
+      ],
+      "caution": "地理試験実施時代の教材・体験記も含まれます。法令試験の現行範囲と分けて参照してください。",
+      "verified": "2026-07-15",
+      "priority": 18
+    },
+    {
+      "id": "adachi2",
+      "name": "個人タクシー開業希望者募集",
+      "organization": "東京都個人タクシー協同組合 足立第二支部",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "勉強会・学校",
+      "url": "https://adachi2.jp/recruit.html",
+      "summary": "資格取得、勉強会、受講費用、試験内容、面接までをまとめた開業希望者向けページです。",
+      "features": [
+        "資格要件",
+        "勉強会・学校",
+        "試験内容",
+        "日程・費用",
+        "面談"
+      ],
+      "verified": "2026-07-15",
+      "priority": 19
+    },
+    {
+      "id": "edoichi",
+      "name": "局試験講習会",
+      "organization": "東京都個人タクシー協同組合 江戸川第一支部",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "勉強会・学校",
+      "url": "https://toukokyo-edoichi.jp/workshop",
+      "summary": "受講資格、勉強会の案内、近年の合格・申請状況などを掲載した講習会ページです。",
+      "features": [
+        "勉強会・学校",
+        "資格要件",
+        "合格実績",
+        "申請支援"
+      ],
+      "verified": "2026-07-15",
+      "priority": 20
+    },
+    {
+      "id": "edokyo",
+      "name": "個人タクシーで開業を希望される方へ",
+      "organization": "江戸川個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://www.edokyo-kojin.com/%E5%80%8B%E4%BA%BA%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E9%96%8B%E6%A5%AD%E5%B8%8C%E6%9C%9B%E8%80%85%E6%A7%98%E3%81%B8/",
+      "summary": "毎週の勉強会、資格条件、開業者の体験談、譲渡譲受相談、女性事業者の案内などを掲載しています。",
+      "features": [
+        "勉強会・学校",
+        "開業体験記",
+        "資格要件",
+        "譲渡譲受",
+        "女性歓迎"
+      ],
+      "verified": "2026-07-15",
+      "priority": 21
+    },
+    {
+      "id": "itabashi",
+      "name": "開業希望者向け勉強会",
+      "organization": "板橋個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "地域組合・独立系",
+      "category": "勉強会・学校",
+      "url": "https://itabashikojintaxi.jimdofree.com/%E9%96%8B%E6%A5%AD%E5%B8%8C%E6%9C%9B%E8%80%85%E5%90%91%E3%81%91%E5%8B%89%E5%BC%B7%E4%BC%9A/",
+      "summary": "『個人タクシー実務必携』を基にしたオリジナル教材、ベテラン講師、月2回の講習、別途開業指導を案内しています。",
+      "features": [
+        "勉強会・学校",
+        "独自教材",
+        "教材紹介",
+        "開業セミナー"
+      ],
+      "verified": "2026-07-15",
+      "priority": 22
+    },
+    {
+      "id": "shibuya",
+      "name": "開業希望者募集・勉強会",
+      "organization": "東京都個人タクシー協同組合 渋谷支部",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "開業案内",
+      "url": "https://park19.wakwak.com/~toukokyo-shibuya/recruit.html",
+      "summary": "開業資格の概要と、支部で行う試験対策の案内を掲載しています。",
+      "features": [
+        "資格要件",
+        "勉強会・学校",
+        "相談窓口"
+      ],
+      "caution": "旧制度の地理試験表記が残っている可能性があります。最新制度は運輸局公示で確認してください。",
+      "verified": "2026-07-15",
+      "priority": 32
+    },
+    {
+      "id": "toyu",
+      "name": "個人タクシー開業を目指す方へ",
+      "organization": "東友個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "地域組合・独立系",
+      "category": "勉強会・学校",
+      "url": "https://toyu-kojin.org/guide/",
+      "summary": "月2～3回を目安とする勉強会、資格の確認、譲渡譲受相談などを案内しています。",
+      "features": [
+        "勉強会・学校",
+        "資格要件",
+        "譲渡譲受",
+        "相談窓口"
+      ],
+      "verified": "2026-07-15",
+      "priority": 23
+    },
+    {
+      "id": "toubu",
+      "name": "個人タクシー開業希望者募集",
+      "organization": "東部個人タクシー事業協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://toubukojin.com/",
+      "summary": "勉強会、合格実績、認可申請から開業までの一貫支援をトップページで分かりやすく訴求しています。",
+      "features": [
+        "勉強会・学校",
+        "合格実績",
+        "申請支援",
+        "開業の流れ"
+      ],
+      "verified": "2026-07-15",
+      "priority": 24
+    },
+    {
+      "id": "kojin1",
+      "name": "個人タクシー試験講習会",
+      "organization": "個人タクシー第一事業団協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "地域組合・独立系",
+      "category": "勉強会・学校",
+      "url": "https://www.kojin1.or.jp/recruit.html",
+      "summary": "開業希望者への面談、月数回の講習、受験から開業までの支援を紹介しています。",
+      "features": [
+        "勉強会・学校",
+        "面談",
+        "資格要件",
+        "申請支援"
+      ],
+      "verified": "2026-07-15",
+      "priority": 25
+    },
+    {
+      "id": "ktj",
+      "name": "新規事業者育成部・資格試験講習会",
+      "organization": "個人タクシー事業団協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "ちょうちん系",
+      "category": "勉強会・学校",
+      "url": "https://ktj-chotin.com/ikuseibu.htm",
+      "summary": "地区別の資格試験講習会日程、資格要件、試験内容、担当窓口をまとめています。",
+      "features": [
+        "勉強会・学校",
+        "地区別日程",
+        "資格要件",
+        "試験内容"
+      ],
+      "caution": "一部に地理試験時代の記述が残っています。現行制度は最新公示と照合してください。",
+      "verified": "2026-07-15",
+      "priority": 33
+    },
+    {
+      "id": "sakura",
+      "name": "新規開業希望者向け勉強会",
+      "organization": "さくら個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "地域組合・独立系",
+      "category": "勉強会・学校",
+      "url": "https://jotokojin.jp/sp1/study_meeting.html",
+      "summary": "新規開業希望者向け勉強会の開催と、電話・メールによる申込窓口を簡潔に案内しています。",
+      "features": [
+        "勉強会・学校",
+        "相談窓口"
+      ],
+      "verified": "2026-07-15",
+      "priority": 26
+    },
+    {
+      "id": "km",
+      "name": "km個人タクシー 開業支援・勉強会",
+      "organization": "国際自動車グループ",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "企業系・提携型",
+      "category": "勉強会・学校",
+      "url": "https://info.km-group.co.jp/km-group/kojin-taxi-info",
+      "summary": "km個人タクシーを目指す方向けに、集中講習、教材・過去問題、開業支援の仕組みを案内しています。",
+      "features": [
+        "勉強会・学校",
+        "過去問",
+        "教材紹介",
+        "開業支援"
+      ],
+      "caution": "企業グループの提携・加盟を前提とする案内を含みます。対象条件を確認してください。",
+      "verified": "2026-07-15",
+      "priority": 27
+    },
+    {
+      "id": "toukokyo-branches",
+      "name": "東個協 支部一覧",
+      "organization": "東京都個人タクシー協同組合",
+      "region": "関東",
+      "prefecture": "東京都",
+      "system": "東個協（でんでん系）",
+      "category": "地域窓口一覧",
+      "url": "https://www.toukokyo.or.jp/toukokyo/sibu.html",
+      "summary": "東京都内の各支部を住所・連絡先から探せます。独自ホームページが未掲載の支部への問い合わせにも使えます。",
+      "features": [
+        "支部一覧",
+        "相談窓口"
+      ],
+      "verified": "2026-07-15",
+      "priority": 91
+    },
+    {
+      "id": "niigata",
+      "name": "個人タクシー事業者募集",
+      "organization": "新潟地区個人タクシー協同組合",
+      "region": "北陸信越",
+      "prefecture": "新潟県",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://niigatatikukojintaxi.net/bosyu.html",
+      "summary": "資格要件と募集案内を掲載し、現時点で条件を満たしていない方にも早めの相談を呼びかけています。",
+      "features": [
+        "資格要件",
+        "相談窓口",
+        "開業案内"
+      ],
+      "verified": "2026-07-15",
+      "priority": 40
+    },
+    {
+      "id": "kanazawa",
+      "name": "個人タクシーになるには",
+      "organization": "金沢個人タクシー協同組合",
+      "region": "北陸信越",
+      "prefecture": "石川県",
+      "system": "地域組合・独立系",
+      "category": "勉強会・学校",
+      "url": "https://k-kojintax.com/contents/personal.html",
+      "summary": "資格条件、事前試験、合格の有効期間、年3回の勉強会と申込時期を案内しています。",
+      "features": [
+        "資格要件",
+        "勉強会・学校",
+        "試験制度",
+        "申込時期"
+      ],
+      "verified": "2026-07-15",
+      "priority": 41
+    },
+    {
+      "id": "chubu-directory",
+      "name": "中部地区の会員団体一覧",
+      "organization": "一般社団法人 全国個人タクシー協会",
+      "region": "中部",
+      "prefecture": "中部各県",
+      "system": "全国団体・広域団体",
+      "category": "地域窓口一覧",
+      "url": "https://www.kojin-taxi.or.jp/gaiyou/05cyubu.html",
+      "summary": "愛知・静岡・岐阜など中部各地の個人タクシー団体と連絡先を確認できます。",
+      "features": [
+        "地域団体一覧",
+        "相談窓口"
+      ],
+      "caution": "開業希望者専用ページではありません。勉強会・譲渡譲受支援の有無は各団体へ確認してください。",
+      "verified": "2026-07-15",
+      "priority": 92
+    },
+    {
+      "id": "allosaka",
+      "name": "個人タクシーになるには",
+      "organization": "全大阪個人タクシー協同組合",
+      "region": "近畿",
+      "prefecture": "大阪府",
+      "system": "地域組合・独立系",
+      "category": "勉強会・学校",
+      "url": "https://www.allosaka.net/taxi",
+      "summary": "資格要件、新規許可・譲渡譲受、年3回の経営者学校、特別講習などを詳しく案内しています。",
+      "features": [
+        "資格要件",
+        "経営者学校",
+        "特別講習",
+        "新規許可・譲渡譲受"
+      ],
+      "verified": "2026-07-15",
+      "priority": 50
+    },
+    {
+      "id": "allkyoto",
+      "name": "個人タクシーになるには",
+      "organization": "全京都個人タクシー協同組合",
+      "region": "近畿",
+      "prefecture": "京都府",
+      "system": "地域組合・独立系",
+      "category": "勉強会・学校",
+      "url": "https://allkyotokojin.com/howto/",
+      "summary": "年3回程度の勉強会、過去問題を使った講習、資格要件と開業相談を案内しています。",
+      "features": [
+        "勉強会・学校",
+        "過去問",
+        "資格要件",
+        "相談窓口"
+      ],
+      "verified": "2026-07-15",
+      "priority": 51
+    },
+    {
+      "id": "kyoto-city",
+      "name": "個人タクシーになるための資格・勉強会",
+      "organization": "京都市個人タクシー事業協同組合",
+      "region": "近畿",
+      "prefecture": "京都府",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://sikojin.jp/company/shikaku/",
+      "summary": "詳細な資格条件、法令試験と講習日程、申込期限、必要書類、面談、譲渡譲受相談を掲載しています。",
+      "features": [
+        "資格要件",
+        "勉強会・学校",
+        "必要書類",
+        "面談",
+        "譲渡譲受"
+      ],
+      "verified": "2026-07-15",
+      "priority": 52
+    },
+    {
+      "id": "kinki-school",
+      "name": "経営者学校 受講生募集",
+      "organization": "全国個人タクシー協会 近畿支部・全大阪個人タクシー協会",
+      "region": "近畿",
+      "prefecture": "近畿各府県",
+      "system": "全国団体・広域団体",
+      "category": "最新募集情報",
+      "url": "https://kojin-taxi-kinki.or.jp/%E3%80%90%E5%8F%97%E8%AC%9B%E7%94%9F%E5%8B%9F%E9%9B%86%E3%80%91%E7%B5%8C%E5%96%B6%E8%80%85%E5%AD%A6%E6%A0%A1%E3%81%8A%E3%81%97%E3%82%89%E3%81%9B/",
+      "summary": "近畿運輸局の試験に向けた経営者学校の募集、日程表、申込資料を掲載する最新情報ページです。",
+      "features": [
+        "経営者学校",
+        "募集日程",
+        "申込資料",
+        "譲渡譲受"
+      ],
+      "caution": "所属団体経由での申込みなど、募集回ごとの条件を確認してください。",
+      "verified": "2026-07-15",
+      "priority": 49
+    },
+    {
+      "id": "hiroshima",
+      "name": "個人タクシー開業希望者向け案内",
+      "organization": "広島県個人タクシー協同組合",
+      "region": "中国",
+      "prefecture": "広島県",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://www.hirokojin.jp/",
+      "summary": "独立開業、業界の将来、試験支援体制などを図解資料で案内し、相談窓口を掲載しています。",
+      "features": [
+        "試験支援",
+        "開業案内",
+        "図解資料",
+        "相談窓口"
+      ],
+      "verified": "2026-07-15",
+      "priority": 60
+    },
+    {
+      "id": "shikoku-directory",
+      "name": "四国地区の会員団体一覧",
+      "organization": "一般社団法人 全国個人タクシー協会",
+      "region": "四国",
+      "prefecture": "四国各県",
+      "system": "全国団体・広域団体",
+      "category": "地域窓口一覧",
+      "url": "https://www.kojin-taxi.or.jp/gaiyou/08shikoku.html",
+      "summary": "四国各地の個人タクシー団体と連絡先を確認できる公式一覧です。",
+      "features": [
+        "地域団体一覧",
+        "相談窓口"
+      ],
+      "caution": "開業希望者専用ページではありません。勉強会・譲渡譲受支援の有無は各団体へ確認してください。",
+      "verified": "2026-07-15",
+      "priority": 93
+    },
+    {
+      "id": "nishinihon",
+      "name": "個人タクシーにチャレンジ",
+      "organization": "西日本個人タクシー協同組合",
+      "region": "九州・沖縄",
+      "prefecture": "福岡県",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://www.nishinihon-kojintaxi.or.jp/taxi-driver-challenge",
+      "summary": "資格要件、試験合格から事業開始までの支援、組合への相談方法を案内しています。",
+      "features": [
+        "資格要件",
+        "試験支援",
+        "申請支援",
+        "開業の流れ"
+      ],
+      "verified": "2026-07-15",
+      "priority": 70
+    },
+    {
+      "id": "hato",
+      "name": "個人タクシー開業希望者へ",
+      "organization": "ハト個人タクシー協同組合",
+      "region": "九州・沖縄",
+      "prefecture": "福岡県",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://hatokojin.com/?01=",
+      "summary": "年齢、免許、運転経歴、違反歴、資金など、開業に必要な基本条件を分かりやすく掲載しています。",
+      "features": [
+        "資格要件",
+        "資金",
+        "相談窓口"
+      ],
+      "verified": "2026-07-15",
+      "priority": 71
+    },
+    {
+      "id": "okinawa",
+      "name": "個人タクシー事業者になるには",
+      "organization": "沖縄県個人タクシー事業協同組合",
+      "region": "九州・沖縄",
+      "prefecture": "沖縄県",
+      "system": "地域組合・独立系",
+      "category": "開業案内",
+      "url": "https://okikojin.com/private-taxi-operator",
+      "summary": "資格の基本、勉強会・相談、沖縄での譲渡譲受による開業支援について案内しています。",
+      "features": [
+        "資格要件",
+        "勉強会・学校",
+        "譲渡譲受",
+        "相談窓口"
+      ],
+      "caution": "開業方法や募集状況は変わるため、掲載内容と最新の運輸局公示を併せて確認してください。",
+      "verified": "2026-07-15",
+      "priority": 72
+    }
+  ]
+}
