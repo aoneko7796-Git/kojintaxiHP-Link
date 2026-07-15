@@ -4,7 +4,7 @@ const normalize = (value) => String(value ?? "").normalize("NFKC").toLowerCase()
 
 async function loadData() {
   try {
-    const response = await fetch("data/sites.json", { cache: "no-store" });
+    const response = await fetch("sites.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     state.sites = data.sites ?? [];
