@@ -3,8 +3,8 @@
     "title": "全国 個人タクシー開業・受験支援リンク集",
     "description": "全国の個人タクシー組合・支部・協会が公開する、開業希望者向けページを特徴別に探せるリンク集。",
     "lastUpdated": "2026-07-15",
-    "version": "1.2.0",
-    "editorNote": "団体系統を全国共通の大分類に統一し、地域・支部の中分類を追加。公開情報で確認できた所属・ブランドを基準に整理。"
+    "version": "1.2.1",
+    "editorNote": "西東京個人タクシー協同組合はホームページ1件のみ掲載し、接続可能なHTTP URLへ修正。"
   },
   "sites": [
     {
@@ -283,7 +283,7 @@
       "system": "でんでん系",
       "category": "組合案内",
       "url": "https://ntkojintaxi.s1009.xrea.com/",
-      "summary": "八王子市を拠点とする南多摩支部の公式ホームページです。個人タクシーを目指す方向けの開業案内や試験講習会へ進めます。",
+      "summary": "八王子市を拠点とする南多摩支部の公式ホームページです。個人タクシーを目指す方向けの案内や試験講習会などを掲載しています。",
       "features": [
         "組合案内",
         "開業案内",
@@ -292,44 +292,6 @@
       ],
       "verified": "2026-07-15",
       "priority": 12,
-      "area": "西東京"
-    },
-    {
-      "id": "nishitokyo-class",
-      "name": "個人タクシー試験勉強会",
-      "organization": "西東京個人タクシー協同組合",
-      "region": "関東",
-      "prefecture": "東京都",
-      "system": "でんでん系",
-      "category": "勉強会・学校",
-      "url": "https://ntkojintaxi.s1009.xrea.com/about_test_class.php",
-      "summary": "法令テキストを使い、条文の理解を重視して進める試験勉強会の内容を紹介しています。",
-      "features": [
-        "勉強会・学校",
-        "教材紹介",
-        "法令解説"
-      ],
-      "verified": "2026-07-15",
-      "priority": 13,
-      "area": "西東京"
-    },
-    {
-      "id": "nishitokyo-recruit",
-      "name": "個人タクシーを目指す方へ",
-      "organization": "西東京個人タクシー協同組合",
-      "region": "関東",
-      "prefecture": "東京都",
-      "system": "でんでん系",
-      "category": "開業案内",
-      "url": "https://ntkojintaxi.s1009.xrea.com/recruitment.html",
-      "summary": "個人タクシーの利点、開業希望者向けの基本案内、相談窓口を掲載しています。",
-      "features": [
-        "開業の魅力",
-        "資格要件",
-        "相談窓口"
-      ],
-      "verified": "2026-07-15",
-      "priority": 14,
       "area": "西東京"
     },
     {
