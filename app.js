@@ -1,4 +1,14 @@
-const state = { sites: [], meta: {}, query: "", region: "", system: "", feature: "", sort: "recommended" };
+const state = {
+  sites: [],
+  meta: {},
+  query: "",
+  region: "",
+  system: "",
+  area: "",
+  feature: "",
+  sort: "recommended"
+};
+
 const $ = (selector) => document.querySelector(selector);
 const normalize = (value) => String(value ?? "").normalize("NFKC").toLowerCase();
 
@@ -17,8 +27,9 @@ async function loadData() {
 }
 
 function initialize() {
-  populateSelect("#regionFilter", unique(state.sites.map(site => site.region)), "すべての地域");
-  populateSelect("#systemFilter", unique(state.sites.map(site => site.system)), "すべての系統");
+  populateSelect("#regionFilter", unique(state.sites.map(site => site.region)), "すべての全国ブロック");
+  populateSelect("#systemFilter", unique(state.sites.map(site => site.system)), "すべての団体系統");
+  refreshAreaOptions();
   populateSelect("#featureFilter", unique(state.sites.flatMap(site => site.features)), "すべての内容");
   $("#siteCount").textContent = state.sites.length;
   $("#regionCount").textContent = unique(state.sites.map(site => site.region)).length;
@@ -31,7 +42,7 @@ function unique(values) {
   return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja"));
 }
 
-function populateSelect(selector, values, firstLabel) {
+function populateSelect(selector, values, firstLabel, selectedValue = "") {
   const select = $(selector);
   select.innerHTML = `<option value="">${firstLabel}</option>`;
   values.forEach(value => {
@@ -40,23 +51,57 @@ function populateSelect(selector, values, firstLabel) {
     option.textContent = value;
     select.appendChild(option);
   });
+  if (selectedValue && values.includes(selectedValue)) select.value = selectedValue;
+}
+
+function refreshAreaOptions() {
+  const candidates = state.sites.filter(site => {
+    if (state.region && site.region !== state.region) return false;
+    if (state.system && site.system !== state.system) return false;
+    return true;
+  });
+  const areas = unique(candidates.map(site => site.area));
+  if (state.area && !areas.includes(state.area)) state.area = "";
+  populateSelect("#areaFilter", areas, "すべての地域・支部", state.area);
 }
 
 function bindEvents() {
-  $("#searchInput").addEventListener("input", event => { state.query = event.target.value; render(); });
-  $("#regionFilter").addEventListener("change", event => { state.region = event.target.value; render(); });
-  $("#systemFilter").addEventListener("change", event => { state.system = event.target.value; render(); });
-  $("#featureFilter").addEventListener("change", event => { state.feature = event.target.value; render(); });
-  $("#sortSelect").addEventListener("change", event => { state.sort = event.target.value; render(); });
+  $("#searchInput").addEventListener("input", event => {
+    state.query = event.target.value;
+    render();
+  });
+  $("#regionFilter").addEventListener("change", event => {
+    state.region = event.target.value;
+    refreshAreaOptions();
+    render();
+  });
+  $("#systemFilter").addEventListener("change", event => {
+    state.system = event.target.value;
+    refreshAreaOptions();
+    render();
+  });
+  $("#areaFilter").addEventListener("change", event => {
+    state.area = event.target.value;
+    render();
+  });
+  $("#featureFilter").addEventListener("change", event => {
+    state.feature = event.target.value;
+    render();
+  });
+  $("#sortSelect").addEventListener("change", event => {
+    state.sort = event.target.value;
+    render();
+  });
   $("#resetButton").addEventListener("click", resetFilters);
 }
 
 function resetFilters() {
-  state.query = state.region = state.system = state.feature = "";
+  state.query = state.region = state.system = state.area = state.feature = "";
   state.sort = "recommended";
   $("#searchInput").value = "";
   $("#regionFilter").value = "";
   $("#systemFilter").value = "";
+  refreshAreaOptions();
   $("#featureFilter").value = "";
   $("#sortSelect").value = "recommended";
   render();
@@ -69,11 +114,20 @@ function filteredSites() {
   return state.sites.filter(site => {
     if (state.region && site.region !== state.region) return false;
     if (state.system && site.system !== state.system) return false;
+    if (state.area && site.area !== state.area) return false;
     if (state.feature && !site.features.includes(state.feature)) return false;
     if (!tokens.length) return true;
     const haystack = normalize([
-      site.name, site.organization, site.region, site.prefecture, site.system,
-      site.category, site.summary, ...(site.features ?? []), site.caution
+      site.name,
+      site.organization,
+      site.region,
+      site.prefecture,
+      site.area,
+      site.system,
+      site.category,
+      site.summary,
+      ...(site.features ?? []),
+      site.caution
     ].join(" "));
     return tokens.every(token => haystack.includes(token));
   });
@@ -81,10 +135,16 @@ function filteredSites() {
 
 function sortedSites(sites) {
   const copy = [...sites];
-  if (state.sort === "region") return copy.sort((a,b) => a.region.localeCompare(b.region,"ja") || a.priority-b.priority);
-  if (state.sort === "name") return copy.sort((a,b) => a.organization.localeCompare(b.organization,"ja"));
-  if (state.sort === "recent") return copy.sort((a,b) => b.verified.localeCompare(a.verified) || a.priority-b.priority);
-  return copy.sort((a,b) => a.priority-b.priority);
+  if (state.sort === "region") {
+    return copy.sort((a, b) =>
+      a.region.localeCompare(b.region, "ja") ||
+      a.area.localeCompare(b.area, "ja") ||
+      a.priority - b.priority
+    );
+  }
+  if (state.sort === "name") return copy.sort((a, b) => a.organization.localeCompare(b.organization, "ja"));
+  if (state.sort === "recent") return copy.sort((a, b) => b.verified.localeCompare(a.verified) || a.priority - b.priority);
+  return copy.sort((a, b) => a.priority - b.priority);
 }
 
 function render() {
@@ -95,8 +155,8 @@ function render() {
 
   sites.forEach(site => {
     const card = template.content.cloneNode(true);
-    card.querySelector(".region-badge").textContent = `${site.region}｜${site.prefecture}`;
-    card.querySelector(".category-label").textContent = site.category;
+    card.querySelector(".region-badge").textContent = `${site.region}｜${site.area}`;
+    card.querySelector(".category-label").textContent = `${site.system}｜${site.category}`;
     card.querySelector("h3").textContent = site.name;
     card.querySelector(".organization").textContent = site.organization;
     card.querySelector(".summary").textContent = site.summary;
@@ -133,8 +193,11 @@ async function copyUrl(url, button) {
     button.textContent = "コピーしました";
   } catch {
     const temp = document.createElement("textarea");
-    temp.value = url; document.body.appendChild(temp); temp.select();
-    document.execCommand("copy"); temp.remove();
+    temp.value = url;
+    document.body.appendChild(temp);
+    temp.select();
+    document.execCommand("copy");
+    temp.remove();
     button.textContent = "コピーしました";
   }
   setTimeout(() => { button.textContent = original; }, 1600);

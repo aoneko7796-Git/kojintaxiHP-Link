@@ -7,7 +7,6 @@
   <meta name="theme-color" content="#0b3d5c">
   <title>全国 個人タクシー開業・受験支援リンク集</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="notice-hide.css">
 </head>
 <body>
   <a class="skip-link" href="#results">検索結果へ移動</a>
@@ -42,21 +41,25 @@
       <div class="section-heading">
         <p class="eyebrow dark">LINK FINDER</p>
         <h2 id="finder-title">必要な支援から探す</h2>
-        <p>組合名だけでなく、「過去問」「勉強アプリ」「譲渡譲受」などの特徴でも検索できます。</p>
+        <p>団体系統を大分類、地域・支部を中分類として絞り込み、「過去問」「勉強アプリ」「譲渡譲受」などの特徴でも検索できます。</p>
       </div>
 
       <div class="filters" role="search">
         <label class="search-field">
           <span>キーワード</span>
-          <input id="searchInput" type="search" placeholder="例：練馬、過去問、勉強会、譲渡譲受" autocomplete="off">
+          <input id="searchInput" type="search" placeholder="例：西東京、千葉、過去問、勉強会" autocomplete="off">
         </label>
         <label>
-          <span>地域</span>
-          <select id="regionFilter"><option value="">すべての地域</option></select>
+          <span>全国ブロック</span>
+          <select id="regionFilter"><option value="">すべての全国ブロック</option></select>
         </label>
         <label>
-          <span>団体系統</span>
-          <select id="systemFilter"><option value="">すべての系統</option></select>
+          <span>団体系統（大分類）</span>
+          <select id="systemFilter"><option value="">すべての団体系統</option></select>
+        </label>
+        <label>
+          <span>地域・支部（中分類）</span>
+          <select id="areaFilter"><option value="">すべての地域・支部</option></select>
         </label>
         <label>
           <span>主な内容</span>
@@ -89,7 +92,7 @@
     <section class="about-section" id="about">
       <div class="section-heading compact">
         <p class="eyebrow dark">ABOUT THIS LIST</p>
-        <h2>掲載基準</h2>
+        <h2>掲載基準と注意点</h2>
       </div>
       <div class="info-grid">
         <article>
@@ -102,12 +105,19 @@
           <h3>ブランドを限定しない</h3>
           <p>でんでん系、ちょうちん系、地域独立系、協会、企業提携型を横断して掲載しています。</p>
         </article>
+        <article>
+          <span class="info-number">03</span>
+          <h3>旧制度表記は注意表示</h3>
+          <p>地理試験時代の記事など、現在と異なる可能性がある情報には注意書きを付けています。最終判断は運輸局の最新公示で確認してください。</p>
+        </article>
       </div>
       <div class="coverage-note">
         <strong>専用ページが見つからない地域について</strong>
         <p>公式の地域団体一覧を「地域窓口一覧」として補完掲載しています。</p>
       </div>
     </section>
+
+
   </main>
 
   <footer>
@@ -128,7 +138,6 @@
       <p class="organization"></p>
       <p class="summary"></p>
       <div class="feature-list" aria-label="掲載内容"></div>
-      <!-- app.jsとの互換性のため要素は残し、CSSで常に非表示にします -->
       <div class="caution" hidden></div>
       <div class="card-footer">
         <span class="verified"></span>

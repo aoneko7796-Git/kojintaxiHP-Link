@@ -86,7 +86,7 @@ h1 { margin: 0; font-size: clamp(2.55rem, 6vw, 5.25rem); line-height: 1.13; lett
 .section-heading.compact { margin-bottom: 44px; }
 .filters {
   margin-top: 42px; padding: 24px;
-  display: grid; grid-template-columns: 2fr repeat(4, 1fr); gap: 14px;
+  display: grid; grid-template-columns: 2fr repeat(5, 1fr); gap: 14px;
   background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow);
 }
 .filters label { display: flex; flex-direction: column; gap: 7px; }
@@ -111,7 +111,7 @@ h1 { margin: 0; font-size: clamp(2.55rem, 6vw, 5.25rem); line-height: 1.13; lett
 .link-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: #bfcdd4; }
 .card-topline { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .region-badge { padding: 4px 10px; border-radius: 999px; background: #e9f5f6; color: #145d64; font-size: .73rem; font-weight: 800; }
-.category-label { color: var(--muted); font-size: .73rem; }
+.category-label { color: var(--muted); font-size: .73rem; text-align: right; }
 .link-card h3 { margin: 20px 0 5px; font-size: 1.34rem; line-height: 1.45; }
 .organization { margin: 0 0 15px; color: var(--navy); font-weight: 750; font-size: .88rem; }
 .summary { margin: 0; color: #394852; }
